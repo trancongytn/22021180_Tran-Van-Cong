@@ -1,8 +1,8 @@
-// Hello.h
-
-#ifndef _HELLO_H
-#define _HELLO_H
-
-std::string printGameOver();
-print "Game Over!"
-#endif
+#include <iostream>
+using namespace std;
+string printGameOver(){
+return "Game Over!";
+}
+int main(){
+cout << printGameOver();
+}
